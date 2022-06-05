@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ limit: "20mb", extended: true }));
 app.use(cors());
 app.use('/students', studentRouters)
 
-const CONNECTION_URL = 'mongodb+srv://priyanka:priyankaj@cluster0.jdwle.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'Your Cloud Server';
 
 const PORT = process.env.PORT || 5000;
 
